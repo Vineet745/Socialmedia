@@ -1,0 +1,21 @@
+<%- include('partials/header')%>
+<%- include('partials/sidenav')%>
+
+<div id="main">
+    <div class="rightdiv">
+        <% home.forEach((elem)=>{ %>
+        <div class="card" style="width: 16rem; margin: 1vh ; height: 26rem; background-color: black;">
+            <div class="img-div" style="height: 60%; ">
+        <img style="height: 100%; object-fit: cover; object-position: top; width: 100%; " src="/uploads/<%= elem.image%>" class="card-img-top" alt="...">
+    </div>
+        <div style="color: white;" class="card-body">
+          
+          <p style="height: 40%; font-size: 15px;" class="card-text"><%= elem.comment%></p>
+          <h6 style="font-size: 10px;" class="card-title"><%= elem.location%></h6>
+          <a href="/delete/<%= elem._id%>" class=" btn btn-danger">Delete Post</a>
+        </div>
+      </div>
+      <%})%>
+    </div> 
+</div>
+<%- include('partials/footer')%>

@@ -1,0 +1,22 @@
+<%- include("partials/header")%>
+<div id="main">
+  <form action="/login" method="post">
+  <div class="loginpage">
+    <div class="box py-3 form-control  text-center">
+       <h3 >Instagram</h3>
+       <input class="form-control border border-dark" type="text" name="email" placeholder="Email">
+       <input class="form-control border border-dark my-2" type="password" placeholder="********" name="password" >
+       <button class="btn btn-primary w-100">Login</button>
+       <hr>
+       OR
+       <br>
+       <a class="text-decoration-none text-muted " href="/forgetpassword">Forgot password ??</a>
+       
+    </div>
+    <div class="down-box">
+      <p>Don't have an account? <a class="text-decoration-none fw-bold" href="/register">Register</a></p>
+    </div>
+  </div>
+</form>
+</div>
+<%- include("partials/footer")%>

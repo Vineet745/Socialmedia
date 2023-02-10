@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+#main{
+  overflow-x: hidden;
+  font-family: gilroy;
+  }
+.loginpage{
+    width: 100vw;
+    height: 100vh;
+    background-color:lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+  width: 23vw;
+  height: 45vh;
+  border: 0.2px solid grey;
+  background-color: white;
+}
+.box h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin: auto;
+}
+.down-box{
+  width: 23vw;
+  height: 10vh;
+  margin-top: 2vh;
+  background-color: white;
+  border: 0.2px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.signbox{
+  width: 23vw;
+  height: 55vh;
+  background-color: white;
+  border: 1px solid grey;
+}
+.other-box{
+  width: 23vw;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: white;
+}
+.page1-main{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.side-nav{
+  width: 18vw;
+  border-right: 1px solid grey;
+  height: 100vh;
+  padding: 2vh;
+  position: fixed;
+}
+
+.controls{
+display: flex;
+align-items:center;
+justify-content:flex-start;
+margin-top: 8vh;
+
+}
+
+.controls a{
+  text-decoration: none;
+  color: black;
+}
+.controls i{
+  font-size: 4vh;
+}
+.controls img{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 2vh;
+}
+.section{
+ width: 80.8vw;
+ background-color:white;
+ height: 100vh;
+ float: right;
+ 
+}
+.top-section{
+  margin: auto;
+  width: 80%;
+  height: 35vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.left-section{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  border-right: 1px solid grey;
+  
+}
+.left-section img{
+  width: 150px;
+  height: 150px;
+  margin-top: 5vh;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.right-section{
+  width: 60%;
+  height: 100%;
+  padding: 3vh;
+}
+.first-row{
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-design{
+  width: 82%;
+  height: 100vh;
+  background-color: lightgreen;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightdiv{
+  width: 82%;
+  float: right;
+  min-height: 100vh;
+  background-color: rgb(60, 131, 197);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vh;
+}
+.bottom-section{
+  width: 100%;
+  min-height: 100%;
+  background-color: lightblue;
+  padding: 2vh;
+}
+.post-image{
+  width: 15vw;
+  height: 30vh;
+  border: 1px solid black;
+}
+.changepassword{
+  position: absolute;
+  top: 30%;
+  right:3%;
+}

@@ -1,0 +1,13 @@
+<%- include('partials/header')%>
+<%- include('partials/sidenav')%>
+<div class="card-design">
+<form class="form-control w-50" action="/create" method="post" enctype="multipart/form-data">
+    <h1 class="my-2 text-center">Create Post</h1>
+    <input class="form-control my-2" type="file" name="image">
+    <input class="form-control my-2" type="text" name="location" placeholder="location">
+    <input class="form-control my-2" type="text" name="comment" placeholder="comment">
+    <button class=" w-100 btn btn-success">Add post</button>
+</form>
+</div>
+
+<%- include('partials/footer')%>

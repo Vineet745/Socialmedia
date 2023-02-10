@@ -1,0 +1,13 @@
+<%- include('partials/header')%>
+
+<form  class="form-control w-25 m-auto mt-5" action="/edit" method="post" enctype="multipart/form-data">
+  <h1 class="text-center my-2">Edit profile</h1>
+  <input class="form-control my-2" type="text" name="name" value="<%= user.name%>">
+  <input class="form-control my-2" type="text" name="username" value="<%= user.username%>">
+  <textarea placeholder="About" class="form-control my-2" name="about" id="" cols="40" rows="10"></textarea>
+  <input class=" form-control my-2" type="file" name="avatar">
+  <input type="hidden" name="oldavatar" value="<%= user.avatar%>" >
+  <button class="btn btn-success w-100">Save</button>
+  
+</form>
+<%- include('partials/footer')%>
